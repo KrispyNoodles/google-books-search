@@ -1,26 +1,31 @@
+/* Import Tailwind's base styles */
 @import "tailwindcss";
 
+/* Define default light mode color variables in the root */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff;     /* Default background: white */
+  --foreground: #171717;     /* Default text color: very dark gray */
 }
 
+/* Define theme-specific variables that Tailwind can use inline */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);     /* Sets Tailwind background color */
+  --color-foreground: var(--foreground);     /* Sets Tailwind foreground (text) color */
+  --font-sans: var(--font-geist-sans);       /* Custom sans-serif font */
+  --font-mono: var(--font-geist-mono);       /* Custom monospace font */
 }
 
-@media (prefers-color-scheme: dark) {
+/* color scheme can be either bright or dark */
+@media (prefers-color-scheme: bright) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a;   /* Dark mode background */
+    --foreground: #ededed;   /* Dark mode text color (light gray) */
   }
 }
 
+/* Apply the background and text colors to the <body> element */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);             /* Use current background color */
+  color: var(--foreground);                  /* Use current text color */
+  font-family: Arial, Helvetica, sans-serif; /* Fallback font stack */
 }
