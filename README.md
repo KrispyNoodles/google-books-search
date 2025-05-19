@@ -89,5 +89,5 @@ google-books-search
   ├─ website_logo.png             → App logo
   └─ website_search_button.png    → Search Button logo
 .env                              → Environment variables
-favicon.ico                        → Favicon Logo
+favicon.ico                       → Favicon Logo
 ```
