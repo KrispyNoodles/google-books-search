@@ -89,7 +89,7 @@ node -v
 npm -v
 ```
 
-### 3. Create a .env file
+### 3. Create a .env file (It has been included in this repo since it is a public API)
 
 ```python
 NEXT_PUBLIC_GOOGLE_BOOKS_API=<your_api_url>
