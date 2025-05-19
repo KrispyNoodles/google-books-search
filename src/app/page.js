@@ -1,4 +1,3 @@
-
 // Using Next.js to render this page on the client-side
 'use client';
 
@@ -15,7 +14,7 @@ export default function Home() {
   const [books, setBooks] = useState([]);
 
   // State Variable to hold the total number of books from searches
-  const [total, setTotal] = useState('');
+  const [total, setTotal] = useState(0);
 
   // Function that triggers when the user submits the search form
   // default function cannot be async so it has to be called and created seperately
@@ -82,14 +81,14 @@ export default function Home() {
             <span className="absolute left-1 top-1/2 -translate-y-1/2 text-gray-400">
               <img
                 src="/website_search_button.png"
-                alt="Joey Books Logo"
+                alt="Joey Books Search Button Logo"
                 className="w-full max-w-xl h-11 max-h-full object-contain"
               />
             </span>
           </div>
         </form>
 
-        {/* Style not neccesarrily important therefore <> (React Fragments) are enough*/}
+        {/* Style not necessarily important therefore <> (React Fragments) are enough*/}
         <>
           {/* The & function ensures that only when the "total" state variable is more than 0, then the toal number of books will be revealed */}
           {total > 0 && 
@@ -118,6 +117,7 @@ export default function Home() {
                 <p className="text-sm text-gray-600">
                   {book.volumeInfo.authors?.join(', ')}
                 </p>
+
               </li>
             ))}
           </ul>
