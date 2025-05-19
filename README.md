@@ -17,7 +17,7 @@ The `part_1.ipynb` file contains a Python function that processes a given text f
 
 # 📚 Google Books Search (Part 2)
 
-This is my **first-ever web application** — a Google Books Search interface. Although this was part of a 5-day assessment, I devoted quite some time to learning the **fundamentals of web development**, including React and Next.js.
+This is my **first-ever web application** — a Google Books Search interface. Although this was a 5-day assessment, I devoted quite some time to learning the **fundamentals of web development**, including React and Next.js.
 
 The app is a clean, responsive book search interface powered by the [Google Books API](https://developers.google.com/books), built using:
 
@@ -27,10 +27,8 @@ The app is a clean, responsive book search interface powered by the [Google Book
 
 It supports live searching, detailed book pages, and new search navigation.
 
-
 ## 🖼️ Preview
 ![video_demo](https://github.com/user-attachments/assets/7de9fd76-c1ff-45b4-b548-d0f8a147a294)
-
 
 ## 🚀 Features of This Repo
 
