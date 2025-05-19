@@ -72,6 +72,11 @@ nvm --version
 ```
 
 Install the latest LTS version of Node.js:
+
+⚠️ Note: If you encounter the error:
+``sh: 1: next: Permission denied``
+it likely means there's a permissions issue with your local dependencies. In that case, try running the installation again:
+
 ```bash
 nvm install --lts
 npm install
