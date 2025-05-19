@@ -11,7 +11,7 @@ This repository contains both parts of the technical assessment for the AI Engin
 
 # 📘 Word Frequency (Part 1)
 
-The `part_1.ipynb` file contains a Python function that processes a given text file, `pg16317.txt` and outputs the **top 10–20 most frequent words**. It demonstrates basic natural language processing techniques and file handling.
+The `part_1.ipynb` file contains a Python function that processes the text file `pg16317.txt` and outputs the **top 10–20 most frequent words**. It demonstrates basic natural language processing techniques and file handling.
 
 ---
 
