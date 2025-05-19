@@ -59,14 +59,13 @@ npm install
 
 # 📁 Project Structure
 ``` Python
-google-books-search/app
-  ├─ page.js                → Home (search page)
-  └─ /book/[id]/page.js     → Book details
-/components
-  └─ BackButton.jsx         → Reusable back button
-/utils
-  └─ searchBooks.js         → API helper function
-/public
-  └─ logo.png               → App logo
-.env.local                  → Environment variables
+google-books-search
+/src/app/
+  ├─ page.js                      → Home (search page)
+  └─ /book/[id]/page.js           → Book Page
+/public/
+  ├─ website_logo.png             → App logo
+  └─ website_search_button.png    → Search Button logo
+.env                              → Environment variables
+favicon.ico                        → Favicon Logo
 ```
