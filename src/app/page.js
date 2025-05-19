@@ -21,7 +21,7 @@ export default function Home() {
   // default function cannot be async so it has to be called and created seperately
   const searchBooks = async (e) => {    
 
-    // retrieving variable from .env file
+    // retrieving variables from .env file
     const baseUrl = process.env.NEXT_PUBLIC_GOOGLE_BOOKS_API;
 
     e.preventDefault(); // Prevent default form submission which would reload the page

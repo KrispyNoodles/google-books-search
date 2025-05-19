@@ -1,12 +1,20 @@
 
-export default async function BookPage({ params, searchParams }) {
+export default async function BookPage({ params }) {
+
+  // asynchronous access of `params.id`.
+  const { id } = await params
 
   // retrieving variable from .env file
   const baseUrl = process.env.NEXT_PUBLIC_GOOGLE_BOOKS_API;
 
   // retrieving content from the API
-  const res = await fetch(`${baseUrl}/${params.id}`);
-  if (!res.ok) return <div className="p-6">Book not found.</div>;
+  const res = await fetch(`${baseUrl}/${id}`);
+
+  // error handling
+  if (!res.ok) 
+    return <div className="p-6">
+      Book not found.
+      </div>;
 
   // converting the retrieved type into a json object to be manipulated with
   const book = await res.json();
@@ -14,9 +22,6 @@ export default async function BookPage({ params, searchParams }) {
 
   // removing HTML tags from a string
   const plainTextDescription = info.description?.replace(/<[^>]+>/g, '');
-
-  // Retrieving the previous search and retrieving the '' if it is empty
-  const query = searchParams.q || '';
 
   // This is the JSX that defines what will be rendered in the browser
   return (
@@ -44,8 +49,6 @@ export default async function BookPage({ params, searchParams }) {
       >
         ← New Search
       </a>
-
-      {/* Back to Search Page List */}
 
     </main>
   );
