@@ -43,8 +43,12 @@ It supports live searching, detailed book pages, and new search navigation.
   - 💅 Modern UI using Tailwind CSS
   - 📱 Fully responsive layout that works across desktop, tablet, and mobile devices
 
-```
-git clone https://github.com/your-username/joey-books-search.git
+## ⚙️ Setup
+
+### 1. Clone the repository
+
+``git clone https://github.com/your-username/joey-books-search.git``
+
 cd joey-books-search
 2. Install dependencies
 bash
