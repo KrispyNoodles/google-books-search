@@ -35,7 +35,8 @@ It supports live searching, detailed book pages, and new search navigation.
 - 📘 **Full documentation of the learning process** for Web Development and React Fundamentals  
   → [Read the documentation](https://github.com/KrispyNoodles/google-books-search/wiki/Documentation-on-Learning-Process)
 
-- ✅ **Issues created to track progress** throughout the development journey → [Read the full development process](https://github.com/KrispyNoodles/google-books-search/issues/1)
+- ✅ **Issues created to track progress** throughout the development journey
+  → [Read the full development process](https://github.com/KrispyNoodles/google-books-search/issues/1)
 - ✨ **Core Features of the App:**
   - 🔍 Live book search with query suggestions
   - 📘 Book detail pages with descriptions, authors, and cover images
