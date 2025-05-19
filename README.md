@@ -47,16 +47,35 @@ It supports live searching, detailed book pages, and new search navigation.
 
 ### 1. Clone the repository
 
-``git clone https://github.com/your-username/joey-books-search.git``
-
+``` bash
+git clone https://github.com/your-username/joey-books-search.git
 cd joey-books-search
-2. Install dependencies
-bash
-Always show details
-
-Copy
-npm install
 ```
+
+### 2. Installing the Tools
+
+Go to this [link](https://nodejs.org/en) and install the LTS Version.
+
+Verify in a terminal if the installation is done properly by entering the commands below, the versions will be displayed if it is installed correctly:
+
+```bash
+node -v
+npm -v
+```
+
+### 3. Create a .env file
+
+```python
+NEXT_PUBLIC_GOOGLE_BOOKS_API=<your_api_url>
+```
+
+### 4. Run the Web App Locally
+
+```bash
+npm run dev
+```
+
+Now open http://localhost:3000 to use the app.
 
 
 # 📁 Project Structure
