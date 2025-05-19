@@ -4,7 +4,7 @@
 
 This repository contains both parts of the technical assessment for the AI Engineer position in AI Singapore.
 
-- **Part 1**: A Python script (`part_1.ipynb`) that analyzes word frequency in a text file.
+- **Part 1**: A Python Jupyter Notebook (`part_1.ipynb`) that analyzes word frequency in a text file.
 - **Part 2**: A fully functional Google Books search web application.
 
 ---
