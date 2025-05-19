@@ -55,7 +55,9 @@ cd joey-books-search
 
 ### 2. Installing the Tools
 
-Go to this [link](https://nodejs.org/en) and install the LTS Version.
+Go to this [link](https://nodejs.org/en) and install the LTS Version. And then run the command:
+
+``npm install``
 
 Verify in a terminal if the installation is done properly by entering the commands below, the versions will be displayed if it is installed correctly:
 
