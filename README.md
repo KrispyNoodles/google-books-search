@@ -55,9 +55,25 @@ cd joey-books-search
 
 ### 2. Installing the Tools
 
-Go to this [link](https://nodejs.org/en) and install the LTS Version. And then run the command:
+Installing nvm:
 
 ```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+
+Reload your terminal to activate nvm:
+```bash
+source ~/.bashrc
+```
+
+Verify that nvm is installed using: 
+```bash
+nvm --version
+```
+
+Install the latest LTS version of Node.js:
+```bash
+nvm install --lts
 npm install
 ```
 
